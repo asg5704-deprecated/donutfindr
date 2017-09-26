@@ -1,0 +1,17 @@
+<% include partials/header %>
+
+<div id="container" class="containersssss">
+<h1>DonutFindr</h1>
+	<div id="form-container">
+		<form action="/results" method="POST">
+		    <label>Search:</label>
+		    <div class="form-group">
+		        <input class="form-control" type="text" name="locationName" placeholder="Beverly Hills, CA or 90210">
+		    </div>
+			<div class="form-group">
+			    <button class="btn btn-lg btn-search">Submit</button> 
+			</div>
+		</form>
+	</div>
+</div>
+<% include partials/footer %>
