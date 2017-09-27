@@ -8,5 +8,6 @@ Finds the donuts nearest you by searching through YelpFusion's API database via 
 * Search function and results page working
 
 ##Needs
-* Add Foundation 5 or SemanticUI CSS library
-* 
+* Add Foundation 6
+* Add Routes folder
+* Add Environment variables for API keys

@@ -4,9 +4,8 @@ var yelp	   = require('yelp-fusion'),
 	bodyParser = require('body-parser'),
 	app = express();
 
-const clientId = 'gWETXU2YD5clPGC7xqmc1w';
-const clientSecret = 'DP9BwyQuZgn6tFoPb8X6u89v78Dqj2lQimWzXcrjp81tw4dGFfARWt4A8IL4hgG5';
-
+var clientId = process.env.CLIENT_ID,
+	clientSecret = process.env.CLIENT_SECRET;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
