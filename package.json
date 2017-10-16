@@ -14,6 +14,7 @@
     "ejs": "^2.5.7",
     "express": "^4.15.4",
     "foundation-sites": "^6.4.3",
+    "google-geolocation": "^1.0.1",
     "request": "^2.81.0",
     "yelp-fusion": "^1.0.3"
   },
