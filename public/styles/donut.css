@@ -25,6 +25,7 @@ a:hover, a:focus {
 }
 .brand-title a {
 	font-size: 1.2em;
+	color: #fff;
 }
 
 h3 {
@@ -62,10 +63,10 @@ h3 {
 }
 .brand-title {
     font-size: 3em;
-    color: white;
+    color: #fff;
 }
 .brand-tagline {
-    color: #7F3464;
+    color: #000;
     font-family: 'Josefin Slab';
     font-weight: lighter;
 }
